@@ -14,7 +14,6 @@ public class App2 {
                 .master("local[*]")
                 .getOrCreate();
 
-// Lire les données de la table PATIENTS
         Dataset<Row> df = ss.read()
                 .format("jdbc")
                 .option("url", "jdbc:mysql://localhost:3306/DB_HOPITAL")
@@ -41,6 +40,12 @@ public class App2 {
         ConsultationssByDoc.show();
 
 
+        Dataset<Row> patientsPerDo = ss.sql("SELECT medecins.nom, medecins.prenom, COUNT(DISTINCT consultations.id_patient) AS N_PatientsPerDoc\n" +
+                "FROM consultations\n" +
+                "INNER JOIN medecins ON consultations.id_medecin = medecins.id\n" +
+                "GROUP BY medecins.nom, medecins.prenom;");
+
+        patientsPerDo.show();
 
     }
 }
