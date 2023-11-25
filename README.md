@@ -9,16 +9,16 @@
 #### App1 Handle two queries:
 * Query 1 : Count the number of incidents per service
 * Code:
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/a40e3134-cb01-43ae-b6bf-ec22abbc8571)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/a40e3134-cb01-43ae-b6bf-ec22abbc8571)
 
 * Result:
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f6df726c-9290-4138-9b8a-43b0dafea824)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f6df726c-9290-4138-9b8a-43b0dafea824)
 
 * Query 2 : Count the number of incidents per year (Show the two years where there were more incidents.)
 * Code:
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/9f73fcd6-654e-4bac-ac72-abfe084e8435)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/9f73fcd6-654e-4bac-ac72-abfe084e8435)
 * Result:
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/a99f8c0d-e2ef-4347-b41e-e2d0f21ff4c5)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/a99f8c0d-e2ef-4347-b41e-e2d0f21ff4c5)
 
 ### App2 
 #### App2 Handle three queries applyed on the following data base :
@@ -34,19 +34,24 @@
   * ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/8ab35928-b1cb-447a-99d8-cbf94fc11c35)
 * Query 1 : Show the number of consultations per day:
 * Code :
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/2a5c642c-5bed-45b6-98f7-14db76659965)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/2a5c642c-5bed-45b6-98f7-14db76659965)
 
 * Result:
 * 
 ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/fd93b2f9-ecd3-4081-9210-46e82e3ec09b)
 * Query 2 : Display the number of consultations per doctor.:
 * Code :
-* 
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/5cde5228-7d61-4204-a678-4bc3adddcd64)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/5cde5228-7d61-4204-a678-4bc3adddcd64)
 
 * Result:
-* 
-![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f6e3f9a6-462a-4da0-9fb8-6cba5b205a03)
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f6e3f9a6-462a-4da0-9fb8-6cba5b205a03)
+
+* Query 3 : Display for each doctor the number of patients he has attended.
+* code :
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/45ac1316-003c-4658-bac1-38b570b5e2cc)
+
+* Result:
+* ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f3218019-f726-4844-a655-ebb13ec8c41c)
 
 
 
