@@ -35,12 +35,17 @@
 * Query 1 : Show the number of consultations per day:
 * Code :
 ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/2a5c642c-5bed-45b6-98f7-14db76659965)
+
 * Result:
+* 
 ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/fd93b2f9-ecd3-4081-9210-46e82e3ec09b)
 * Query 2 : Display the number of consultations per doctor.:
 * Code :
+* 
 ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/5cde5228-7d61-4204-a678-4bc3adddcd64)
+
 * Result:
+* 
 ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f6e3f9a6-462a-4da0-9fb8-6cba5b205a03)
 
 
