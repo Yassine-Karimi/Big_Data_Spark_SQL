@@ -20,8 +20,21 @@
 * Result:
 ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/a99f8c0d-e2ef-4347-b41e-e2d0f21ff4c5)
 
+### App1 
+#### App2 Handle three queries applyed on the following data base :
+![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/0398df5c-162d-42d3-beaa-b37f0ed2eb9c)
+* First we gonna create this db DATABASE DB_HOPITAL and the three tables PATIENTS, MEDECINS & CONSULTATIONS using MYSQL DB;
+* * ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/59434b95-6550-464b-85a2-a1b373256c8a)
+  * ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/1f5b442f-58e3-492c-b3ff-c1ac5c72460e)
+  * ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/f17b7bfa-062d-42f2-ad94-217a1cf30948)
+  * ![image](https://github.com/Yassine-Karimi/Big_Data_Spark_SQL/assets/66490404/98370836-a36e-439c-8d52-f7659128ca12)
 
-  
+
+
+
+
+
+
   
 
 
