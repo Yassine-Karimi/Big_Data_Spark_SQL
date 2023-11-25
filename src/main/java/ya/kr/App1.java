@@ -22,10 +22,13 @@ public class App1 {
         Dataset<Row> incidentsCountByService = incidentsByService.groupBy("service").count();
         incidentsCountByService.show();
         //dfSQL1.show();
+
+
         System.out.println("----------------------Afficher les deux années où il a y avait plus d’incidents.-----------------------");
         Dataset<Row> incidentsByYear = df.withColumn("year", df.col("date").substr(0, 4));
         Dataset<Row> incidentsCountByYear = incidentsByYear.groupBy("year").count();
         incidentsCountByYear = incidentsCountByYear.sort(incidentsCountByYear.col("count").desc());
         incidentsCountByYear.show(2);
+
     }
 }
